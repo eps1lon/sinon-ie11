@@ -22,5 +22,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: "Development"
     })
-  ]
+  ],
+  resolve: {
+    mainFields: ["main"]
+  }
 };

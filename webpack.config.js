@@ -24,6 +24,6 @@ module.exports = {
     })
   ],
   resolve: {
-    mainFields: ["main"]
+    mainFields: ["browser", "main", "module"]
   }
 };
